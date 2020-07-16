@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context=".TimeUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="508dp"
+        android:fontFamily="@font/go_mono_bold"
+        android:gravity="center_horizontal"
+        android:text="TIME'S UP"
+        android:textColor="@color/colorR"
+        android:textSize="82sp" />
+
+    <TextView
+        android:id="@+id/txtMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="383dp"
+        android:fontFamily="@font/go_mono_bold"
+        android:gravity="center_horizontal"
+        android:text="MODE"
+        android:textColor="@color/colorR"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="448dp"
+        android:fontFamily="@font/go_mono_bold"
+        android:gravity="center_horizontal"
+        android:text="SUMMARY!"
+        android:textColor="@color/colorB"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="309dp"
+        android:fontFamily="@font/go_mono_bold"
+        android:text="CORRECT!"
+        android:textColor="@color/colorG"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/crpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="283dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="307dp"
+        android:fontFamily="@font/go_mono_bold"
+        android:text="0"
+        android:textColor="@color/colorG"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="251dp"
+        android:fontFamily="@font/go_mono_bold"
+        android:text="WRONG!"
+        android:textColor="@color/colorR"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/wrpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="252dp"
+        android:fontFamily="@font/go_mono_bold"
+        android:text="0"
+        android:textColor="@color/colorR"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="578dp"
+        android:fontFamily="@font/go_mono_bold"
+        android:gravity="center_horizontal"
+        android:text="HOME"
+        android:textSize="82sp" />
+</RelativeLayout>
